@@ -13,6 +13,12 @@ class Bike extends Vehicle {
 	}
 }
 
+
+// Vehicle v = new Bike();
+
+
+
+
 public class OverridingExample {
 
 	public static void main(String[] args) {

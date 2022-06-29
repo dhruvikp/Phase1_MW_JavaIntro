@@ -2,7 +2,7 @@ package com.simplilearn.objects.polymorphism;
 
 // 100 % abstraction level
 interface Drawable {
-	 void draw();
+	 abstract void draw();
 }
 
 class Rectangle implements Drawable {
