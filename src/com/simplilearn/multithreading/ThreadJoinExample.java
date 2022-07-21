@@ -20,7 +20,8 @@ public class ThreadJoinExample {
 
 	public static void main(String[] args) throws InterruptedException {
 		
-		Thread t1 = new Thread(new TestJoinRunnable());
+		Thread t1 = new Thread(new TestJoinRunnable());	
+		
 		t1.start();
  		t1.join();
 		
